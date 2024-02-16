@@ -21,7 +21,7 @@ const Header = () => {
     return ( 
         <div className="row bg-warning d-flex align-items-center">
             <div className="col-sm-3"><Link to='/'><img src="/imgs/logo.png" alt="RealGrande" className="w-25"/></Link></div>
-            <div className="col-sm-5"><h2>Your real estate destination</h2></div>
+            <div className="col-sm-5"><h2>Your rel estate destination</h2></div>
             <div className="col-sm-4">
                 {
                 (sessionStorage.getItem("name")) 
